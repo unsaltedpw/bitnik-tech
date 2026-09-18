@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>bitnik</title>
+<style>
+  @font-face {
+    font-family: "JetBrains Mono";
+    src: local("JetBrains Mono");
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+    background: #0f0a1f;
+    color: #ece6ff;
+    font-family: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    text-align: center;
+    padding: 24px;
+    box-sizing: border-box;
+  }
+  img.logo {
+    width: 128px;
+    height: 128px;
+    border-radius: 28px;
+  }
+  .wordmark {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    text-transform: lowercase;
+    background: linear-gradient(180deg, #7ff5ec 0%, #9b7bff 55%, #d04bd8 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .message {
+    font-size: 14px;
+    color: #a99fc9;
+  }
+</style>
+</head>
+<body>
+  <img class="logo" src="assets/planeshift-icon.svg" alt="Planeshift">
+  <div class="wordmark">planeshift</div>
+  <div class="message">coming soon from bitnik</div>
+</body>
+</html>
