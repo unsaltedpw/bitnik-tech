@@ -19,8 +19,8 @@ in the served branch, but the domain itself is DNS, not a Pages setting.
 
 `bitnik.tech`'s DNS zone — its address records and the `brad@bitnik.tech`
 email forwarding — is declared in `platform/projects/bitnik-tech/` (a
-Cloudflare zone, moved there from Namecheap's registrar DNS on 2026-09-20
-once the zone grew past a thing Namecheap's own UI could hold). Change DNS
+Cloudflare zone, moved there from Namecheap's registrar DNS on 2026-09-20,
+when the Namecheap zone held only email records and the domain did not resolve). Change DNS
 there, not in a registrar or Cloudflare console.
 
 Verified 2026-10-01: `dig +short bitnik.tech A` returns the four GitHub Pages
